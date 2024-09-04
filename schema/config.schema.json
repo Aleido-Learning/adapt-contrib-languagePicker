@@ -37,6 +37,12 @@
               "description": "Introductory or explanatory text for the Language Picker",
               "default": ""
             },
+            "instruction": {
+              "type": "string",
+              "title": "Language Picker instruction",
+              "description": "Instruction text for the Language Picker",
+              "default": ""
+            },
             "_showOnCourseLoad": {
               "type": "boolean",
               "title": "Show on course load",

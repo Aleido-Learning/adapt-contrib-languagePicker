@@ -50,10 +50,13 @@ Enables/disables this extension. The default value is `false`. Set this to `true
 Browser window title text. For example, "Language selection".
 
 #### displayTitle (string):
-Header text. For example, "Please select a language."
+Header text. For example, "Language selection"
 
 #### body (string):
-Introductory or explanatory text. For example, "Welcome to ACME Learning. This course is available in several languages. Please make a selection."
+Introductory or explanatory text. For example, "Welcome to ACME Learning. This course is available in several languages."
+
+#### instruction (string):
+Instruction text. For example, "Please make a selection."
 
 #### \_showOnCourseLoad (boolean):
 Determines whether the language picker will be displayed on course load. If set to `false`, the course will load with the default language selected and the user will need to use the icon in the navigation bar to change languages. The default value is `true`.

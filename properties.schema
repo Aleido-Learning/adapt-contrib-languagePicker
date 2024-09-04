@@ -148,6 +148,15 @@
                   "validators": [],
                   "help": "Introductory or explanatory text for the Language Picker"
                 },
+                "instruction": {
+                  "type": "string",
+                  "required": false,
+                  "default": "",
+                  "title": "Language Picker Instruction text",
+                  "inputType": "Text",
+                  "validators": [],
+                  "help": "Instruction text for the Language Picker"
+                },
                 "_showOnCourseLoad": {
                   "type": "boolean",
                   "required": true,
