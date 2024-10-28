@@ -67,6 +67,12 @@ File name (including path) of the image. Path should be relative to the `src` fo
 #### alt (string):
 The alternative text for this image. Assign [alt text](https://github.com/adaptlearning/adapt_framework/wiki/Providing-good-alt-text) to images that convey course content only.
 
+### \_backgroundImage (object):
+The background image object that defines the image set a s abackground. It contains the following settings:
+
+#### src (string):
+File name (including path) of the image. Path should be relative to the `src` folder (e.g. `"course/en/images/origami-menu-two.jpg"`).
+
 #### \_showOnCourseLoad (boolean):
 Determines whether the language picker will be displayed on course load. If set to `false`, the course will load with the default language selected and the user will need to use the icon in the navigation bar to change languages. The default value is `true`.
 

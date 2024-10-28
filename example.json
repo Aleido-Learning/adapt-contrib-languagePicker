@@ -6,8 +6,11 @@
         "body": "This course is available in the following languages:",
         "instruction": "Select a language to continue.",
         "_graphic": {
-            "src": "course/en/images/splash-logo.png",
-            "alt": "A placeholder"
+            "src": "",
+            "alt": ""
+        },
+        "_backgroundImage": {
+            "src": ""
         },
         "_showOnCourseLoad": true,
         "_comment": "default class names are: icon-globe, icon-language-1, icon-language-2",

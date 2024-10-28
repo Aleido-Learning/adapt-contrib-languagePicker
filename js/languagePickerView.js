@@ -33,7 +33,17 @@ export default class LanguagePickerView extends Backbone.View {
 
     document.title = this.model.get('title') || '';
 
+    this.setBackgroundImage();
+
     _.defer(this.postRender.bind(this));
+  }
+
+  setBackgroundImage() {
+    const hasBackgroundImage = this.model.get('_backgroundImage')?.src;
+    if (!hasBackgroundImage) return;
+
+    this.$el.toggleClass('has-bg-image', Boolean(hasBackgroundImage));
+    this.$el.css('background-image', 'url(' + this.model.get('_backgroundImage').src + ')');
   }
 
   postRender() {
