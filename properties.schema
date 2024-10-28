@@ -157,6 +157,31 @@
                   "validators": [],
                   "help": "Instruction text for the Language Picker"
                 },
+                "_graphic": {
+                  "type": "object",
+                  "required": false,
+                  "title": "Graphic",
+                  "properties": {
+                    "src": {
+                      "type": "string",
+                      "required": false,
+                      "default": "",
+                      "inputType": "Asset:image",
+                      "validators": [],
+                      "help": "This is the image that appears at the top of the Language Picker"
+                    },
+                    "alt": {
+                      "type": "string",
+                      "required": false,
+                      "title": "Alternative text",
+                      "default": "",
+                      "inputType": "Text",
+                      "validators": [],
+                      "help": "A description of the image; required when it has meaning that must be conveyed to the learner. For 'decorative' images, leave this blank.",
+                      "translatable": true
+                    }
+                  }
+                },
                 "_showOnCourseLoad": {
                   "type": "boolean",
                   "required": true,

@@ -1,5 +1,11 @@
 <div class="languagepicker__inner">
 
+  {{#if _graphic.src}}
+  <div class="languagepicker__logo">
+    <img class="languagepicker__logo-image" src="{{_graphic.src}}"{{#if _graphic.alt}} aria-label="{{{_graphic.alt}}}"{{else}}aria-hidden="true"{{/if}}/>
+  </div>
+  {{/if}}
+
   {{#if displayTitle}}
   <div class="languagepicker__title">
     <div class="languagepicker__title-inner" role="heading" aria-level="1">

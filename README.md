@@ -58,6 +58,15 @@ Introductory or explanatory text. For example, "Welcome to ACME Learning. This c
 #### instruction (string):
 Instruction text. For example, "Please make a selection."
 
+### \_graphic (object):
+The graphic object that defines the image shown. It contains the following settings:
+
+#### src (string):
+File name (including path) of the image. Path should be relative to the `src` folder (e.g. `"course/en/images/origami-menu-two.jpg"`).
+
+#### alt (string):
+The alternative text for this image. Assign [alt text](https://github.com/adaptlearning/adapt_framework/wiki/Providing-good-alt-text) to images that convey course content only.
+
 #### \_showOnCourseLoad (boolean):
 Determines whether the language picker will be displayed on course load. If set to `false`, the course will load with the default language selected and the user will need to use the icon in the navigation bar to change languages. The default value is `true`.
 
