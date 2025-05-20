@@ -144,7 +144,7 @@
                   "required": false,
                   "default": "",
                   "title": "Language Picker Body text",
-                  "inputType": "Text",
+                  "inputType": "TextArea",
                   "validators": [],
                   "help": "Introductory or explanatory text for the Language Picker"
                 },
@@ -292,7 +292,7 @@
                         "required": true,
                         "default": "",
                         "title": "Confirm Message",
-                        "inputType": "Text",
+                        "inputType": "TextArea",
                         "validators": ["required"],
                         "help": "This text appears as the body of the dialog confirming the learner's intent to change languages.  Note: the warning message should indicate that any progress will be lost when the language is switched."
                       },
